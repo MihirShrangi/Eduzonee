@@ -1,0 +1,56 @@
+<!-- This is Sign-Up Page-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style1.css">
+
+
+</head>
+
+<body>
+  <div class="navbar">
+    <img id="logo" src="book-monster.gif" alt="logo">
+
+    <input class="search__input" type="text" placeholder="Search">
+
+     <div class="navbarlinks">
+     <a href="Home.html" class="left top" id="home">HOME</a> |
+     <a href="Library.html" class="right top" id="Library">LIBRARY</a> |
+     <a href="login.html" id="Login">LOGIN</a> |
+     <a href="Profile.html" class="right bottom" id="Profile">PROFILE</a>
+     </div>
+ </div>
+
+
+    <div class="center">
+      <h1>Login</h1>
+      <form action="LoginServlet" method="post">
+        <div class="txt_field">
+            <input type="text" name="username" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+            <input type="password" name="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass"></div>
+        <input type="submit" value="Login">
+        <div class="signup_link">
+            <a href="forgotPassword.html">Forgot Password?</a>
+        </div>
+        <div class="signup_link">
+           If not registered? <a href="registration.html">Register here...</a>
+          </div>
+      </form>
+    </div>
+        
+</body>
+
+</html>
